@@ -1,21 +1,58 @@
-:root{
-    /*CSS HEX*/
-    --cravo-rosa: rgb(217, 216, 152);
-    --limao-chiffon: #Ff99c8ff;
-    --mayanza: #Ff99c8ff;
-    --azul-uranio: #Ff99c8ff;
-    --titulo
-    --texto
+@import url('https://fonts.googleapis.com/css?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Share+Tech&display=swap');
+
+:root {
+    --azul: #219ebcff;
+    --azul-forte: #023047ff;
+    --amarelo: #ffb703ff;
+    --laranja: #fb8500ff;
+
+    --branco: #f1f1f1;
+    --titulo: "Bitcount Prop Double Ink", system-ui;
+    --texto: "Share Tech", sans-serif;
 
 }
+
 body {
-    background-color: ;
-    font-family:  ;
-    display: flex ;
-    align-items:center;
+
+    background-color: var(--azul);
+    font-family: var(texto);
+    display: flex;
+    align-items: center;
     justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+button {
+    background-color: var(--azul-forte);
+    color: var(--branco);
+    padding: 10px;
+    border: 2px solid var(--branco);
+    border-radius: 8px;
+    font-size: 20px;
+
+    margin: 5px;
+
+}
+button {
+
+    background-color:var(--azul-forte);
+    font-family: var(--azul);
+    display:flex;
+    align-items: center ;
+    justify-content:center ;
+    margin: 0;
+    padding-left: 0%;
+
+}
 
 
+
+
+.passo {
+    display: none;
+}
+
+.ativvel {
+    display: block;
 }
